@@ -1,1 +1,2 @@
-module.exports = require('./lib/connect');
+require.paths.unshift(__dirname + '/lib');
+module.exports = require('connect');
